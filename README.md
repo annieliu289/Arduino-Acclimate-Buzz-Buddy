@@ -1,5 +1,5 @@
 # Arduino Acclimate Competition: BuzzBuddy
-Code for an assistive device to help out deaf patients. Created as a submission in the UC Davis Arduino Acclimate Competition 2021. 
+Code for an assistive device to help out deaf patients. Created using Arduino as a submission in the UC Davis Arduino Acclimate Competition 2021. 
 
 This prototype allows a user to get the attention of a deaf patient through pressing a button to send signals in the form of an LED turning on and a buzzer. The user can choose from sending messages that indicate an emergency, urgent, or casual event, and these are differentiated by the color of the LED. Upon receiving this message, the patient can then turn off the signal by pressing a button on their side.
 
