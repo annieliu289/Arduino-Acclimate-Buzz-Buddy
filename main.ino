@@ -52,8 +52,6 @@ void setup() {
   pinMode(PIN_emergency_button, INPUT_PULLUP);
   pinMode(PIN_urgent_button, INPUT_PULLUP);
   pinMode(PIN_casual_button, INPUT_PULLUP);
-  
-
 }
 
 void loop() {
@@ -61,9 +59,8 @@ void loop() {
   int ButtonState_emergency = digitalRead(PIN_emergency_button);
   int ButtonState_urgent = digitalRead(PIN_urgent_button);
   int ButtonState_casual = digitalRead(PIN_casual_button);
-
-
-// Debounce the buttons
+ 
+  // Debounce the buttons
 
   // Debounce emergency button
   if((millis() - lastPress_emergency) > debounceTime)                  // If the time between the last button change is greater than the debounceTime; millis() is software timer
@@ -102,8 +99,7 @@ void loop() {
         } 
       }
     }
-   
-   }
+  }
 
   // Debounce urgent button
   if((millis() - lastPress_urgent) > debounceTime)                  // If the time between the last button change is greater than the debounceTime
@@ -143,7 +139,6 @@ void loop() {
         } 
       }
     }
-
    }
     
   // Debounce casual button
