@@ -6,3 +6,5 @@ This prototype allows a user to get the attention of a deaf patient through pres
 Here is a photo of the circuit:
 
 <img width="488" alt="Screen Shot 2021-05-29 at 11 17 17 PM" src="https://user-images.githubusercontent.com/58715683/120094223-04240000-c0d4-11eb-97c0-8fb838dcd72c.png">
+
+Deliverable and Demonstration Video: https://youtu.be/WoKdx-Cd-Tg
